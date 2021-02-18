@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrankWinkel1", "BierWinkel5\DrankWinkel1.csproj", "{F3AC5152-3A8A-46CC-9926-EE86084DD0AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5", "ConsoleApp5\ConsoleApp5.csproj", "{834DB096-EBE7-40A7-9F49-DC53B44C75DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3AC5152-3A8A-46CC-9926-EE86084DD0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AC5152-3A8A-46CC-9926-EE86084DD0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AC5152-3A8A-46CC-9926-EE86084DD0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AC5152-3A8A-46CC-9926-EE86084DD0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834DB096-EBE7-40A7-9F49-DC53B44C75DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834DB096-EBE7-40A7-9F49-DC53B44C75DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834DB096-EBE7-40A7-9F49-DC53B44C75DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834DB096-EBE7-40A7-9F49-DC53B44C75DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B55489A-B7CF-4590-A9B5-AA83EB7479D3}
+	EndGlobalSection
+EndGlobal

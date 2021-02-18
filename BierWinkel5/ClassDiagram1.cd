@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DrankWinkel1.Bier">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrankWinkel1.Bierspecificatie">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Bierspecificatie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Kleur" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DrankWinkel1.Drank">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAJAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Drank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Drankspecificatie" />
+      <Property Name="MinimumHoeveelheid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DrankWinkel1.Drankspecificatie">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAIIAAACACA=</HashCode>
+      <FileName>Drankspecificatie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Volume" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DrankWinkel1.Inventaris">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAgEAA=</HashCode>
+      <FileName>Inventaris.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Dranken" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DrankWinkel1.Wijn">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="DrankWinkel1.Drank" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.94" />
+        <Point X="2" Y="4.2" />
+        <Point X="1.25" Y="4.2" />
+        <Point X="1.25" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wijn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrankWinkel1.Wijnspecificatie">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Wijnspecificatie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Kleur" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="DrankWinkel1.Bierkleur" Collapsed="true">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAACAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bierkleur.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DrankWinkel1.Setgrootte" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABABAAAAAAgAAAAEAAAAAAAQgAAAAAAAAAAA=</HashCode>
+      <FileName>Setgrootte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DrankWinkel1.Volume" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAAAAAAAAGA=</HashCode>
+      <FileName>Volume.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DrankWinkel1.Wijnkleur" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAADAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wijnkleur.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
